@@ -33,7 +33,6 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
-  transition: transform 3s; /* Standard syntax */
 }
 
 /* Next & previous buttons */
@@ -92,7 +91,7 @@
 
 /* Fading animation */
 .fade {
-  animation-duration: 1s;
+  animation-duration: .5s;
   position: relative;
 }
 
@@ -118,12 +117,12 @@
 
 @keyframes slide-out-right {
   from {right:0;opacity:1;}
-  to {right:-1000px;opacity: 0};
+  to {right:-1000px;opacity: 0}
 }
 
 @keyframes slide-out-left {
   from {left:0;opacity:1;}
-  to {left:-1000px;opacity: 0};
+  to {left:-1000px;opacity: 0}
 }
 
 @media only screen and (max-width: 1050px) {
